@@ -1,0 +1,107 @@
+.tasks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  width: 100%;
+  max-width: 46rem;
+
+  gap: 1.5rem;
+
+  margin-top: 4rem;
+}
+
+.tasks .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+.tasks .header .info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tasks .header .info p {
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+}
+
+.tasks .header .info span {
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+  color: var(--gray-200);
+
+  padding: 0.125rem 0.5rem;
+
+  background: var(--gray-400);
+  border-radius: 100%;
+}
+
+.tasks .empty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 1.5rem;
+  gap: 1rem;
+
+  width: 100%;
+
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+}
+
+.tasks .empty p {
+  margin-top: -0.75rem;
+}
+
+.tasks .tasksList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+
+  width: 100%;
+}
+
+.tasks .tasksList .task {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 1rem;
+  gap: 0.75rem;
+
+  background: var(--gray-500);
+
+  border: 1px solid var(--gray-400);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+
+.tasks .tasksList .task img {
+  cursor: pointer;
+}
+
+.tasks .tasksList .task label {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: var(--gray-100);
+}
+
+.tasks .tasksList .task .completed {
+  text-decoration-line: line-through;
+  color: var(--gray-300);
+}
+
+.tasks .tasksList .task i {
+  font-size: 1.5rem;
+  cursor: pointer;
+
+  margin-left: auto;
+}

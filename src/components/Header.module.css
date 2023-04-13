@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 12.5rem;
+
+  background-color: var(--gray-700);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo > img {
+  width: 1.375rem;
+  height: 2.25rem;
+
+  margin-right: 0.75rem;
+}
+
+.logo h1 {
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  color: var(--blue-500);
+}
+
+.logo .to {
+  color: var(--blue-500);
+}
+
+.logo .do {
+  color: var(--purple-500);
+}
